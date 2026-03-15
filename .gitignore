@@ -1,0 +1,30 @@
+# ── Environment variables ──────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Frontend (Vue 3 / Vite / Node) ────────────────────
+cinema_ticket_booking_frontend/node_modules/
+cinema_ticket_booking_frontend/dist/
+cinema_ticket_booking_frontend/.vite/
+cinema_ticket_booking_frontend/*.local
+
+# ── Backend (Go) ───────────────────────────────────────
+cinema_ticket_booking_backend/*.exe
+cinema_ticket_booking_backend/*.out
+cinema_ticket_booking_backend/tmp/
+cinema_ticket_booking_backend/vendor/
+
+# ── Docker ─────────────────────────────────────────────
+docker-compose.override.yml
+
+# ── MongoDB local data ─────────────────────────────────
+mongodb_data/
+
+# ── OS & Editor ────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
