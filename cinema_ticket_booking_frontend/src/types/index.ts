@@ -67,15 +67,6 @@ export interface Seat {
   userId?: string
 }
 
-export interface Showtime {
-  id: string
-  movieId: string
-  startTime: string
-  endTime: string
-  price: number
-  status: string
-}
-
 export interface SeatLockRequest {
   movieId: string
   seats: string[]
